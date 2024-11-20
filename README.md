@@ -33,6 +33,19 @@ A command-line tool to fetch metadata using the YouTube Data API.
    pip install -r requirements.txt
    ```
 
+## Docker Usage (Optional)
+
+You can also run this tool via Docker:
+
+1. Build the Docker image:
+   ```bash
+   docker build -t yt-metadata .
+   ```
+2. Run the Docker container:
+   ```bash
+   docker run yt-metadata <playlist_id>
+   ```
+
 ## Setup
 - Go to the Google Developer [Console](https://console.developers.google.com).
 - ... (TODO: trailing-'/')
